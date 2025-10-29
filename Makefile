@@ -125,6 +125,7 @@ UTILS_SRC	= ft_count_digits.c \
 		ft_split.c \
 		ft_striteri.c \
 		ft_strjoin.c \
+		ft_strjoin_free.c \
 		ft_strmapi.c \
 		ft_strtrim.c \
 		ft_substr.c
