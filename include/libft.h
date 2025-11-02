@@ -17,7 +17,7 @@
 #  define GNL_SIZE 42
 # endif
 
-# include "ft_printf.h"
+# include "../src/printf/ft_printf.h"
 # include <unistd.h>
 # include <stdlib.h>
 
