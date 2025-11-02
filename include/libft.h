@@ -17,7 +17,7 @@
 #  define GNL_SIZE 42
 # endif
 
-# include "../src/printf/ft_printf.h"
+# include "ft_printf.h"
 # include <unistd.h>
 # include <stdlib.h>
 
@@ -43,6 +43,7 @@ int				ft_isalnum_or_underscore(char c);
 int				ft_isalpha(int c);
 int				ft_isascii(int c);
 int				ft_isdigit(int c);
+int				ft_isnumeric(const char *str);
 int				ft_isprint(int c);
 int				ft_isspace(int c);
 char			*ft_itoa(int n);
@@ -54,6 +55,7 @@ void			*ft_memset(void *s, int c, size_t n);
 char			*ft_octa_toa(unsigned int nbr);
 char			*ft_ptr_hextoa(unsigned long ptr);
 void			ft_putchar_fd(char c, int fd);
+int				ft_dprintf(int fd, const char *format, ...);
 void			ft_putendl_fd(char *s, int fd);
 void			ft_putnbr_fd(int n, int fd);
 void			ft_putstr_fd(char *s, int fd);

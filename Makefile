@@ -52,6 +52,7 @@ CTYPE_SRC	= ft_isalnum.c \
 		ft_isalpha.c \
 		ft_isascii.c \
 		ft_isdigit.c \
+		ft_isnumeric.c \
 		ft_isprint.c \
 		ft_isspace.c \
 		ft_tolower.c \
@@ -110,7 +111,8 @@ PRINTF_SRC	= ft_buffer.c \
 		ft_parser.c \
 		ft_precision_num.c \
 		ft_precision_str.c \
-		ft_printf.c
+		ft_printf.c \
+		ft_dprintf.c
 
 STRING_SRC	= ft_strchr.c \
 		ft_strdup.c \
